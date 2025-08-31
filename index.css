@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+     display: flex;
+    flex-direction: column;
+}
+
+#please{
+    display: block;
+    justify-content: center;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 2px;
+}
+#heroSection h1 {
+     font-size: 60px;
+  margin-bottom: 5px; /* reduce gap below h1 */
+  line-height: 1.0;   /* tighter spacing between "Generate a" and "random password" */
+}
+
+#heroSection h2 {
+  margin-top: 5px;  /* reduce gap above h2 */
+  margin-bottom: 20px; /* optional, if nothing follows */
+}
+
+
+#heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0px;
+}
+
+#mainSection{
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+    /* align-items: center; */
+    /* padding-left: 65px; */
+
+}
+
+/*Enter password */
+#enter-len-container{
+    display: flex;
+    flex-direction: row; 
+    align-items: start;
+    margin: 0px;
+}
+
+#enter-len[type=number]::-webkit-inner-spin-button, 
+#enter-len[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+    padding: 0;
+}
+#enter-len{
+    width: 45px;
+    height: 30px;
+    font-size: 30px; 
+    padding: 8px 5px 8px 3px;
+    background-color: #6943ff;
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#enter-len-label{
+    /* margin-bottom: 5px; */
+    font-size: 20px;
+    margin: 12px 10px 0px 0px;
+}
+
+
+
+
+#press{          /* container around slider toggles and gen pass btn*/
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+      margin: 0px 0px 0px 0px;
+}
+
+#slider-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.switch{
+   display: flex;
+  align-items: center;   /* centers checkbox + text vertically */
+  gap: 8px;              /* space between checkbox and text */
+  font-size: 20px;
+}
+
+input[type="checkbox"] {
+        width: 20px;  
+        height: 20px; 
+        /* vertical-align: middle;
+        margin-right: 8px; */
+}
+
+#gen-pass{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: green;
+    margin: 15px 30px 30px 0px;
+    height: 48px;
+    width: 190px;
+    font-size: large;
+}
+
+
+
+#LineSeparator {
+  height: 2px;                 /* thinner for sleekness */
+  width: 100%;                 /* fill available space */
+  max-width: 600px;            /* keeps it from being too wide on big screens */
+  background-color: #ccc;      /* softer color */
+  margin: 20px 0;              /* spacing around line */
+}
+
+
+#passwords{
+    display: flex;
+}
+
+.pass{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: grey;
+    margin: 20px 30px 10px 0px ;
+    height: fit-content;
+    width: fit-content;
+    font-size: large;
+}
+
+
+
+
+/* //import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+
+//https://leads-tracker-app-84e51-default-rtdb.asia-southeast1.firebasedatabase.app/ */
