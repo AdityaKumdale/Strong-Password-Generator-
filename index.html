@@ -1,54 +1,57 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div id="please">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="please">
         <header id="heroSection">
-            <h1>Generate a<br><span style="color:green;"style=" padding-bottom:0px ;" >random password</span> </h1>
+            <h1>Generate a<br><span style="color:green;" style=" padding-bottom:0px ;">random password</span> </h1>
             <h2>Never use insecure password again.</h2>
         </header>
 
         <main id="mainSection">
-            <div id = "enter-len-container">
-            <h3  id="enter-len-label">Enter your password length: </h3>
-            <input id="enter-len" type="number" value="22">
-            
-             </div>
+            <div id="enter-len-container">
+                <h3 id="enter-len-label">Enter your password length: </h3>
+                <input id="enter-len" type="number" value="22">
+
+            </div>
 
             <div id="press">
                 <div id="slider-group">
-                    <label  class="switch">
+                    <label class="switch">
                         <input id="isNo" type="checkbox" checked="true">
                         <!-- <span class="slider round"></span> -->
                         Include Numbers
                     </label>
 
-                    <label  class="switch">
+                    <label class="switch">
                         <input id="isSym" type="checkbox" checked="true">
                         <!-- <span class="slider round"></span> -->
                         Include Symbols
                     </label>
-                 </div>
+                </div>
 
                 <button id="gen-pass">Generate passwords</button>
 
-                
+
             </div>
-            
+
             <div id="LineSeparator"></div>
-            
- <div id="passwords">
+
+            <div id="passwords">
                 <h3 id="pass1" class="pass">password 1</h3>
-                <h3  id="pass2" class="pass" >password 2</h3>
+                <h3 id="pass2" class="pass">password 2</h3>
             </div>
-            
+
         </main>
 
-      
-           
-      
+
+
+
         <script src="index.js"></script>
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
